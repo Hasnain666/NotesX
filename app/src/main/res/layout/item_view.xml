@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleoutput"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        tools:text="My Title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionoutput"
+        android:layout_below="@id/titleoutput"
+        android:textColor="#FBFBFB"
+        tools:text="My Description"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeoutput"
+        android:layout_below="@id/descriptionoutput"
+        android:textColor="#FAF8F8"
+        android:textSize="12dp"
+        tools:text="jan 2020"
+        android:gravity="end"/>
+
+</RelativeLayout>
